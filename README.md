@@ -17,3 +17,8 @@
   
 * Additionally, we generate an expansion coefficient from the map, and if this coefficient is lower than the strength of the current block, or if the best-found block has a strength of 0 and the distance between the current tile and it is 1, we proceed with the move toward this initially searched block based on the angle-finding function (provided in the skeleton) and update the score vector accordingly.
 
+## Testing:
+
+* In order to test it you can use the command: "python ./run.py --cmd "./MyBot" --round 2"
+
+* In order to check the result go in "visualizer" and check ".htm" files. It will display what happened during the game. Also, there is a file there to grant you that the bot is working: "30x30-2-3026956134.htm".
